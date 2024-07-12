@@ -9,11 +9,11 @@ const Pillbox = () => {
 
     return (
         <Container>
-            <Row className="justify-content-center align-items-center">
+            <Row className="justify-content-left align-items-left">
                 <Col md={6}>
                     <div className="pillbox">
                         <h2 className="text-center">Map</h2>
-                        <MapContainer center={position} zoom={13} style={{ height: "200px"}}>
+                        <MapContainer center={position} zoom={13} style={{ height: "200px"}} id="map-container">
                             <TileLayer
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -24,7 +24,7 @@ const Pillbox = () => {
                                 </Popup>
                             </Marker>
                         </MapContainer>
-                        <div className="opening-hours mt-3">
+                        <div className="opening-hours mt-3" id="Time">
                             <h4>471 5th Ave.<br />Brooklyn, NY 11215</h4>
                             <p>Opening Hours</p>
                             <ul>

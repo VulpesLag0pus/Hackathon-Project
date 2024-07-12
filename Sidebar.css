@@ -1,0 +1,29 @@
+.bg-light {
+    background-color: #DEE9D3 !important;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa;
+}
+
+.nav-link .me-2 {
+    margin-right: 8px;
+}
+
+hr {
+    margin: 0 -15px;
+}
+
+a.text-dark {
+    color: #000;
+}
+
+a.text-dark:hover {
+    color: #000;
+    text-decoration: none;
+}

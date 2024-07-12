@@ -6,8 +6,7 @@ const Sidebar = () => {
     return (
         <div className="d-flex flex-column vh-100 p-3 bg-light" style={{ width: '250px' }}>
             <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <img src="/path/to/logo.png" alt="Logo" className="bi me-2" width="40" height="32" />
-                <span className="fs-4">sip & play</span>
+                <img src="./Sipnplay.png" alt="Logo" className="bi me-2" width="40" height="32" />
             </a>
             <hr />
             <ul className="nav nav-pills flex-column mb-auto">

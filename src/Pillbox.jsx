@@ -9,11 +9,11 @@ const Pillbox = () => {
 
     return (
         <Container>
-            <Row className="justify-content-center align-items-center vh-100">
+            <Row className="justify-content-center align-items-center">
                 <Col md={6}>
                     <div className="pillbox">
                         <h2 className="text-center">Map</h2>
-                        <MapContainer center={position} zoom={13} style={{ height: "200px", width: "100%" }}>
+                        <MapContainer center={position} zoom={13} style={{ height: "200px"}}>
                             <TileLayer
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

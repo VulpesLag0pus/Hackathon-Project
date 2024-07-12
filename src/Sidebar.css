@@ -1,5 +1,5 @@
 .bg-light {
-    background-color: #DEE9D3 !important;
+    background-color: #9aba8020;
 }
 
 .nav-link {
@@ -26,4 +26,39 @@ a.text-dark {
 a.text-dark:hover {
     color: #000;
     text-decoration: none;
+}
+#logo{
+    width: 100%;
+    height: 16svh;
+}
+img{
+    width: 100%;
+    height: 16svh;
+    object-fit: cover;
+}
+#one{
+    width: 75%;
+    color: #668150;
+    margin-bottom: 0;
+}
+#one1{
+    width: 75%;
+    color: #668150;
+    margin-top: 0;
+}
+#two{
+    width: 50%;
+    color: #668150;
+    margin-bottom: 0;
+}
+#two1{
+    width: 50%;
+    color: #668150;
+    margin-top: 0;
+}
+.me-2{
+    font-size: 40px;
+}
+li{
+    font-size: 30px;
 }

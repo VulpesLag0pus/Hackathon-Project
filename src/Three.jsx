@@ -33,7 +33,7 @@ function MyThree(path) {
     let lightright = new THREE.DirectionalLight(0xffffff, 1)
     lightright.position.set(-5,-5,0)
     scene.add(light, lightleft, lightright)
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize((window,innerWidth * 0.1), (window.innerHeight * 0.1));
     refContainer.current.appendChild(renderer.domElement)
 
     camera.position.z = 5;

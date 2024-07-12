@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHome, FaClipboardList, FaCalendarAlt, FaGamepad } from 'react-icons/fa';
 import logo from '../app/sipnplay.png';
-import '../app/Sidebar.css';
+import './Sidebar.css';
 
 const Sidebar = () => {
     return (
